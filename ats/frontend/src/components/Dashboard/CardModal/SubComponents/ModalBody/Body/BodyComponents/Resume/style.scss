@@ -1,0 +1,40 @@
+@import "../../../../../../../App/style.scss";
+
+.card-resume-container {
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0px;
+    font-size: 14px;
+
+    .label {
+      padding: 10px 4px 10px 0px;
+      width: 100px;
+      font-weight: 550;
+      font-size: 16px;
+      font-variant-caps: all-petite-caps;
+    }
+
+    .text {
+      width: 400px;
+      padding: 4px 0px;
+    }
+  }
+
+  .resume-wrapper {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 8px 4px 0;
+    border-radius: 8px;
+
+    .resume-item {
+      margin: 4px 0;
+
+      .resume-item-label {
+        font-weight: 700;
+      }
+    }
+  }
+}
