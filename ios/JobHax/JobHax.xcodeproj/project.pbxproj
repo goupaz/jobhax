@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F369E2524EC659F0070A208 /* JHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F369E2424EC659F0070A208 /* JHTextField.swift */; };
+		7F41105C24EC713F0000C7FF /* JHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41105B24EC713F0000C7FF /* JHButton.swift */; };
 		7F94B83924EB45F9000F41F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94B83824EB45F9000F41F9 /* AppDelegate.swift */; };
 		7F94B83B24EB45F9000F41F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94B83A24EB45F9000F41F9 /* SceneDelegate.swift */; };
 		7F94B83D24EB45F9000F41F9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94B83C24EB45F9000F41F9 /* SignInVC.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F369E2424EC659F0070A208 /* JHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHTextField.swift; sourceTree = "<group>"; };
+		7F41105B24EC713F0000C7FF /* JHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHButton.swift; sourceTree = "<group>"; };
 		7F94B83524EB45F9000F41F9 /* JobHax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F94B83824EB45F9000F41F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F94B83A24EB45F9000F41F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F369E2324EC654C0070A208 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				7F41105B24EC713F0000C7FF /* JHButton.swift */,
+				7F369E2424EC659F0070A208 /* JHTextField.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
 		7F94B82C24EB45F9000F41F9 = {
 			isa = PBXGroup;
 			children = (
@@ -59,17 +72,18 @@
 				7F94B84124EB45FB000F41F9 /* Assets.xcassets */,
 				7F94B84324EB45FB000F41F9 /* LaunchScreen.storyboard */,
 				7F94B84624EB45FB000F41F9 /* Info.plist */,
-				7FCD494E24EB47ED0090CAFF /* ViewControllers */,
+				7FCD494E24EB47ED0090CAFF /* View Controllers */,
+				7F369E2324EC654C0070A208 /* Custom Components */,
 			);
 			path = JobHax;
 			sourceTree = "<group>";
 		};
-		7FCD494E24EB47ED0090CAFF /* ViewControllers */ = {
+		7FCD494E24EB47ED0090CAFF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				7F94B83C24EB45F9000F41F9 /* SignInVC.swift */,
 			);
-			path = ViewControllers;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,8 @@
 				7F94B83D24EB45F9000F41F9 /* SignInVC.swift in Sources */,
 				7F94B83924EB45F9000F41F9 /* AppDelegate.swift in Sources */,
 				7F94B83B24EB45F9000F41F9 /* SceneDelegate.swift in Sources */,
+				7F369E2524EC659F0070A208 /* JHTextField.swift in Sources */,
+				7F41105C24EC713F0000C7FF /* JHButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
